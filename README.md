@@ -250,21 +250,6 @@ The model demonstrates:
 **Issue:** PDF files not saving
 - **Solution:** Ensure write permissions in output directory and matplotlib has PDF backend support.
 
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@article{authorYYYY,
-  title={Algorithmic Opacity and Consumer Welfare: A Discrete Choice Analysis of AI-Mediated Markets},
-  author={[Author Names]},
-  journal={[Journal Name]},
-  year={YYYY},
-  volume={XX},
-  pages={XXX-XXX}
-}
-```
-
 ## License
 
 [Specify license - e.g., MIT, Apache 2.0, GPL-3.0]
