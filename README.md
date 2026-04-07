@@ -30,7 +30,7 @@ This repository contains code for generating figures that analyze the economic i
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/obiria/Algorithmic-Opacity-and-Consumer-Welfare-
 cd algorithmic-opacity
 
 # Install dependencies
@@ -239,29 +239,4 @@ The model demonstrates:
 3. **Optimal Regulation:** Complete transparency is generally not optimal due to enforcement costs
 4. **Second-Best Policy:** Balances welfare gains from reduced confusion against regulatory costs
 
-## Troubleshooting
 
-**Issue:** Figures not displaying
-- **Solution:** Ensure matplotlib backend is properly configured. Try adding `plt.switch_backend('TkAgg')` before imports.
-
-**Issue:** Optimization fails to converge
-- **Solution:** Check that η₀ < -1 and parameter values are economically meaningful.
-
-**Issue:** PDF files not saving
-- **Solution:** Ensure write permissions in output directory and matplotlib has PDF backend support.
-
-## License
-
-[Specify license - e.g., MIT, Apache 2.0, GPL-3.0]
-
-## Contact
-
-For questions or issues, please contact [contact information] or open an issue on GitHub.
-
-## Acknowledgments
-
-[Add any acknowledgments, funding sources, or contributors]
-
----
-
-**Last Updated:** October 2025
